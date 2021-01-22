@@ -1,0 +1,126 @@
+*{ margin:0; padding:0;}
+body{font-family:"微软雅黑",Arial,"宋体"; font-size:14px; color:#333; line-height:1.6; background:#fff;}
+a:hover img,img{border:none; vertical-align: bottom;}
+ul{ list-style:none;}
+input,button,select,textarea{outline:none;font-family:"微软雅黑",Arial,"宋体"; font-size:14px; color: #333;}
+table input,table button,table select,table textarea{ vertical-align:middle;}
+textarea{resize:none}
+table{ border-collapse:collapse;}
+a{text-decoration:none; color:#333;}
+a:hover{ color:#31ab68; text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-weight:400; font-family:"微软雅黑";}
+th{font-weight: normal;}
+
+.cf:before,.cf:after{content:""; display:table;}
+.cf:after{clear:both; }/* For IE 6/7 (trigger hasLayout) */
+.cf, .cf2{zoom:1;}
+.cf2:after {content: ""; display:block; height:0; clear:both;}
+
+
+.l{float:left;}
+.r{float:right;}
+/*-------------------------结束公用样式--------------------------*/
+/*---------star家教课堂*/
+
+/*标题*/
+dl.th_t{ height:46px; line-height:46px; padding:12px 0; width:1200px; margin:1em auto; border-bottom: 1px solid #f3f3f3; }
+dl.th_t dd{ float:right; font-size:13px;}
+dl.th_t dd a:hover{ color:#31ab68;}
+dl.th_t dd em{ font-family:"宋体"; color:#ccc; margin:0 .6em; font-style:normal;}
+dl.th_t dt{font-family:"微软雅黑"; float:left; color:#333; background:url(../img/paper1.png) no-repeat left center; padding-left:70px; font-size:24px;}
+
+/*二级标题*/
+.china{font-family:"宋体";}
+dl.t_th{ height:34px; line-height:34px; background:#f3f3f3; overflow:hidden; border-left:3px solid #d81e06;}
+dl.t_th dd{ float:left; padding-left:1em; font-size:18px; color:#333;}
+dl.t_th dt{ color:#888; float:right; padding-right:1em; font-size:12px;}
+dl.t_th dt .china{ font-size:10px; font-style:normal; font-weight:bold;  padding-left:.6em;}
+dl.t_th dt a{ color:#888;}
+dl.t_th dt a:hover{ color:#000;}
+
+div.t_blue dl.t_th{ border-left:3px solid #47bfd9;}
+div.t_green dl.t_th{ border-left:3px solid #42cf77;}
+
+/*宽度*/
+div.w_1000{ width:1200px;; margin:1.2em auto 2.8em auto; padding-bottom:1px;}
+div.w_1000_m{ margin:0 -.6em;}
+/*列表*/
+div.t_list{ float:left; width:31.33%; margin:12 1%;width:30.85%\9;*margin:0 .5%;}
+div.t_list_l{ margin-left:0\9;*margin-left:0;}
+div.t_list{ margin-left:0 0 0 1%\9;*margin-left:0 0 0 1%;}
+div.t_list_r{ float:right\9; margin:0\9;*float:right;*margin:0;}
+ul.t_list{ margin:1em 0 0 0; font-size:13px;}
+ul.t_list li{ border-bottom:1px solid #e3e3e3; line-height:34px; height:34px;overflow:hidden; word-break:keep-all; white-space:nowrap;text-overflow:ellipsis;}
+ul.t_list li em{ font-style:normal; font-size:10px; color:#d81e06;font-family:"宋体"; padding:0 .8em; font-weight:bold; }
+ul.t_list li a{ display:inline-block; 
+transition:all .35s linear;
+-ms-transition:all .35s linear;
+-moz-transition:all .35s linear;
+-webkit-transition:all .35s linear;
+-o-transition:all .35s linear;
+}
+ul.t_list li a:hover{ transform:translateX(.5em);
+-ms-transform:translateX(.5em);
+-moz-transform:translateX(.5em);
+-webkit-transform:translateX(.5em);
+-o-transform:translateX(.5em);
+}
+
+div.t_blue ul.t_list li em{ color:#47bfd9;}
+div.t_green ul.t_list li em{ color:#42cf77;}
+
+
+/*友情链接*/
+div.t_link{ background:#fff; border:1px solid #e2e2e2; padding-bottom:1em;  margin:1.8em auto;}
+div.t_link_w{ margin:.2em 0; padding:.2em 0 0 0;}
+dl.t_link{ float:left; width:31.33%; margin:0 1%;}
+
+dl.t_link_l{ margin-left:0\9;*margin-left:0;}
+dl.t_link{ margin-left:0 0 0 1%\9;*margin-left:0 0 0 1%;}
+dl.t_link_r{ float:right\9; margin:0\9;*float:right;*margin:0;}
+
+dl.t_link dt{ font-size:14px; color:#333; border-bottom:1px solid #e2e2e2; line-height:30px; height:30px;}
+dl.t_link dt span{ float:left; padding:0 .3em; margin-bottom:-1px; border-bottom:2px solid #31ab68;} 
+dl.t_link dd{ font-size:12px; margin:0 -.2em; padding:1.2em 0 0 0;}
+dl.t_link dd p{ float:left; width:31.33%; margin:0 1%; width:30.8%\9;*margin:0 0;*width:30%; overflow:hidden; line-height:2em; height:2em;word-break:keep-all; white-space:nowrap;text-overflow:ellipsis;line-height:1.2em\9; height:1.2em\9;}
+
+
+
+/*标题*/
+dl.t_th_d{ background:#f8f8f8; border-bottom:1px solid #e2e2e2; height:42px; line-height:42px; overflow:hidden;}
+dl.t_th_d dt{ float:right; padding-right:1em;}
+dl.t_th_d dd{ float:left; padding-left:1em; font-size:18px; color:#333;}
+dl.t_th_d dd em{ float:left;  font-family:"宋体"; color:#31ab68; font-size:14px; font-weight:800; font-style:normal; padding:1em .9em 0 0; padding:0em .9em 0 0\9; 
+transform:rotate(90deg);
+-ms-transform:rotate(90deg);
+-moz-transform:rotate(90deg);
+-webkit-transform:rotate(90deg);
+-o-transform:rotate(90deg);
+}
+
+
+/*最小*/
+.min_box{margin: 0 auto; min-width: 1210px; _width:expression((documentElement.clientWidth < 1210) ? "1210px" : "auto" );}
+@media screen and (max-width: 1152px) and (min-width: 800px) {
+/*最小*/
+.min_box{margin: 0 auto; min-width: 1000px; _width:expression((documentElement.clientWidth < 1000) ? "1000px" : "auto" );}
+}
+
+.fliterbox{line-height: 22px; font-size: 13px; color: #666; border-width: 1px 1px 0 1px; border-style: solid; border-color: #e5e5e5;}
+.fliterbox dl{border-bottom: 1px solid #e5e5e5; *zoom: 1;}
+.fliterbox dl:after{display: block; content: ""; clear: both; height: 0; line-height: 0; font-size: 0px;}
+.fliterbox .dt{float: left; padding: 8px 5px 8px 5px; width: 60px; text-align: center; background-color: #f8f8f8;}
+.fliterbox .dd{padding:  8px 0 8px 85px;}
+.fliterbox .dd a{display: inline-block; margin: 0 5px; padding: 0 12px;}
+.fliterbox .dd a:hover{color: #017ac1;}
+.fliterbox .dd .sel{color: #fff!important; font-weight: bold; background-color: #017ac1;}
+
+.filehead{box-shadow: inset 0 -1px 0 #e5e5e5; box-shadow: none\9; border-bottom: 1px solid #e5e5e5\9;}
+.filehead_title{display: inline-block; *display: inline; *zoom: 1; height: 40px; line-height: 40px; font-size: 22px; color: #333; border-bottom: 3px solid #fe9901;}
+.filelist li{padding: 12px 0; border-bottom: 1px solid #eee;}
+.filelist a{display: inline-block; max-width: 100%; _width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 35px; font-size: 16px; color: #333;}
+.filelist a:hover{color: #3ac779;}
+.filelist .doc a:hover{color: #3ac779;}
+.filelist .ico{margin-right: 15px; display: inline-block; width: 35px; height: 39px; background-image: url(../img/paperLogo.png); background-repeat: no-repeat; vertical-align: top; vertical-align: middle\9;}
+.filelist .doc .ico{background-position: 0 0;}
+

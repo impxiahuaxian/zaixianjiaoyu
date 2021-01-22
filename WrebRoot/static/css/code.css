@@ -1,0 +1,268 @@
+/*弹框样式1*/
+
+.cd-popup {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	filter: progid: DXImageTransform.Microsoft.gradient(startcolorstr=#CF000000, endcolorstr=#CF000000);
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	-moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	z-index: 999;
+}
+
+.cd-popup.is-visible {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+	-moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+	transition: opacity 0.3s 0s, visibility 0s 0s;
+	overflow-y: scroll;
+}
+
+.cd-popup-container {
+	position: relative;
+	width: 900px;
+	padding: 0 0px;
+	margin: 150px auto;
+	height: auto;
+	background: #fff;
+	border-radius: 0em;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-backface-visibility: hidden;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.f_close_btn {
+	background: url(../img/close.png) no-repeat;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	z-index: 10;
+	height: 30px;
+	width: 30px;
+	display: block;
+	font-size: 0px;
+}
+
+.f_close_btn:hover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+.is-visible .cd-popup-container {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+.cd-popup-container_450 {
+	width: 450px;
+}
+
+
+/*弹框样式2*/
+
+.cd-popup1 {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	filter: progid: DXImageTransform.Microsoft.gradient(startcolorstr=#CF000000, endcolorstr=#CF000000);
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	-moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	z-index: 999;
+}
+
+.cd-popup1.is-visible1 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+	-moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+	transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+
+.cd-popup-container1 {
+	position: relative;
+	width: 380px;
+	margin: 150px auto;
+	height: auto;
+	background: #fff;
+	border-radius: 0em;
+	text-align: center;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	-webkit-transform: translateY(-60px);
+	-moz-transform: translateY(-60px);
+	-ms-transform: translateY(-60px);
+	-o-transform: translateY(-60px);
+	transform: translateY(-60px);
+	-webkit-backface-visibility: hidden;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.cd-popup-close_o {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 10;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	background: url(../images/inside/close.png) no-repeat;
+	margin: -30px -30px 0 0;
+	font-size: 0;
+}
+
+.cd-popup-close_o:hover {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+.is-visible1 .cd-popup-container1 {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+}
+
+
+/*弹框样式3*/
+
+.cd-popup2 {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	filter: progid: DXImageTransform.Microsoft.gradient(startcolorstr=#CF000000, endcolorstr=#CF000000);
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	-moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	z-index: 9999;
+}
+
+.cd-popup2.is-visible2 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+	-moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+	transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+
+.cd-popup-container2 {
+	position: relative;
+	width: 650px;
+	margin: 150px auto;
+	height: auto;
+	background: #fff;
+	border-radius: 0em;
+	text-align: center;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	-webkit-transform: translateY(60px);
+	-moz-transform: translateY(60px);
+	-ms-transform: translateY(60px);
+	-o-transform: translateY(60px);
+	transform: translateY(60px);
+	-webkit-backface-visibility: hidden;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.is-visible2 .cd-popup-container2 {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+}
+
+
+/*-----------star上传*/
+
+.f_code_th,
+.f_code_th_b {
+	background-color: #31ab68;
+	color: #fff;
+	text-align: left;
+	line-height: 24px;
+	padding: 12px 25px;
+	font-size: 24px;
+}
+
+.f_code_th_b {
+	line-height: 50px;
+}
+
+.f_code_th p {
+	font-size: 14px;
+}
+
+@media screen and (max-width: 1600px) and (min-width: 800px) {
+	.f_code_th p {
+		display: inline;
+		padding-left: 1em;
+	}
+	.btn_20 {
+		padding: 1em 0;
+		margin: 0;
+	}
+	.btn_20 a {
+		line-height: 2.4em;
+		height: 2.4em;
+		font-size: 15px;
+	}
+	.f_close_btn {
+		top: 12px;
+	}
+	.cd-popup-container_h {
+		margin-top: 20px;
+	}
+	.cd-popup-container,
+	.cd-popup-container1,
+	.cd-popup-container2 {
+		margin-top: 100px;
+	}
+}

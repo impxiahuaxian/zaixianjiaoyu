@@ -1,0 +1,47 @@
+
+.button {
+  color: #666;
+  background-color: #3ac779;
+  border-color: #3ac779;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 40px;
+  margin: 0;
+  display: inline-block;
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition-property: all;
+          transition-property: all;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+.button-action:hover,
+.button-action:focus,
+.button-action-flat:hover,
+.button-action-flat:focus {
+	background-color: #31ab68;
+	border-color: #31ab68;
+	color: #FFF;
+}
+
+
+
+.button-action,
+.button-action-flat {
+  background-color: #3ac779;
+  border-color: #3ac779;
+  color: #FFF; }
+
+.button-box {
+  border-radius: 5px; }
+
